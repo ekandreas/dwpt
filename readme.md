@@ -12,12 +12,12 @@ All these components should be installed to your local environment, preferable w
 * Git
 
 ## Step by step
-* Checkout the this lib
+* Checkout this repo to your folder
 ```bash
 git clone http://github.com/ekandreas/dwpt
 ```
 
-* Go to the folder checked out
+* Step into the folder
 ```bash
 cd dwpt
 ```
@@ -28,6 +28,11 @@ nano deploy.php
 ```
 
 * Run composer install or update
+```bash
+composer update
+```
+
+* Run tests with PHP Deployer
 ```bash
 vendor/bin/dep tests
 ```
