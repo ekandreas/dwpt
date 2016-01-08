@@ -11,7 +11,7 @@ All these components should be installed to your local environment, preferable w
 * PHPUnit installed
 * Git
 
-## Setup
+## Step by step
 * Checkout the this lib
 ```bash
 git clone http://github.com/ekandreas/dwpt
