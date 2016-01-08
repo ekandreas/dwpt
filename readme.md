@@ -36,3 +36,8 @@ composer update
 ```bash
 vendor/bin/dep tests
 ```
+If you want a more verbose output then add -v, -vv or -vvv to the command, eg:
+```bash
+vendor/bin/dep tests -vvv
+```
+
