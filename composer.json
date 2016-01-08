@@ -1,0 +1,13 @@
+{
+    "name": "andreas/dwpt",
+    "require": {
+        "deployer/deployer": "^3.0",
+        "phpunit/phpunit": "*"
+    },
+    "authors": [
+        {
+            "name": "Andreas Ek",
+            "email": "andreas@andreasek.se"
+        }
+    ]
+}

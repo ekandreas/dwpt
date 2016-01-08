@@ -1,0 +1,15 @@
+web:
+    build: .
+    ports:
+        - "80:80"
+    volumes:
+        - ".:/var/www/html"
+    links:
+        - mysqldb:mysqldb
+mysqldb:
+    image: mysql
+    environment:
+        - MYSQL_ROOT_PASSWORD=root
+        - MYSQL_DATABASE=wp
+    ports:
+        - "3306:3306"
