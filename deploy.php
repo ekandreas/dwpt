@@ -4,7 +4,7 @@ date_default_timezone_set('Europe/Stockholm');
 /**
  * Change the IP to your env
  */
-env('docker_ip','192.168.99.102');
+env('docker_ip','192.168.99.100');
 
 
 task('tests:docker', function () {
