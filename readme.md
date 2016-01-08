@@ -12,22 +12,22 @@ All these components should be installed to your local environment, preferable w
 * Git
 
 ## Setup
-1. Checkout the this lib
+* Checkout the this lib
 ```bash
 git clone http://github.com/ekandreas/dwpt
 ```
 
-2. Go to the folder checked out
+* Go to the folder checked out
 ```bash
 cd dwpt
 ```
 
-3. Change the IP-adress in 'deploy.php' to your Docker IP, eg 192.168.99.100
+* Change the IP-adress in 'deploy.php' to your Docker IP, eg 192.168.99.100
 ```bash
 nano deploy.php
 ```
 
-4. Run composer install or update
+* Run composer install or update
 ```bash
 vendor/bin/dep tests
 ```
